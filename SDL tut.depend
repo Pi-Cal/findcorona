@@ -1,0 +1,649 @@
+# depslib dependency file v1.0
+1587364592 source:c:\users\pi\desktop\codeblock\sdl tut\main.cpp
+	<iostream>
+	<SDL.h>
+	<windows.h>
+	"Game/Game.h"
+	"Game.cpp"
+	<SDL_image.h>
+	<TextureManager.cpp>
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\close_code.h
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890678 c:\development\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\development\sdl2_image-2.0.5\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1587369888 source:c:\users\pi\desktop\codeblock\sdl tut\game\game.cpp
+	"Game.h"
+	<SDL_image.h>
+	"TextureManager.h"
+	"GameObjects.h"
+	"Map.h"
+	"Vector2D.h"
+	"Tranform.h"
+	"Input2.h"
+	"Virus.h"
+
+1587304056 c:\users\pi\desktop\codeblock\sdl tut\game\game.h
+	"SDL.h"
+	<iostream>
+	"Virus.h"
+
+1587370420 c:\users\pi\desktop\codeblock\sdl tut\game\game.cpp
+	"Game.h"
+	<SDL_image.h>
+	"TextureManager.h"
+	"GameObjects.h"
+	"Map.h"
+	"Vector2D.h"
+	"Tranform.h"
+	"Input2.h"
+	"Virus.h"
+
+1587020487 c:\users\pi\desktop\codeblock\sdl tut\texturemanager\texturemanager.h
+	"SDL.h"
+	"SDL_image.h"
+	<iostream>
+
+1587020481 c:\users\pi\desktop\codeblock\sdl tut\texturemanager\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	<SDL.h>
+	"Game.h"
+
+1587020481 source:c:\users\pi\desktop\codeblock\sdl tut\texturemanager\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	<SDL.h>
+	"Game.h"
+
+1587018765 source:c:\users\pi\desktop\codeblock\sdl tut\gameobjects\gameobjects.cpp
+	"GameObjects.h"
+	<TextureManager.h>
+	<TextureManager.cpp>
+	<SDL.h>
+
+1587018687 c:\users\pi\desktop\codeblock\sdl tut\gameobjects\gameobjects.h
+	<SDL.h>
+	"Game.h"
+
+1587021529 source:c:\users\pi\desktop\codeblock\sdl tut\map\map.cpp
+	"Map.h"
+	"TextureManager.h"
+	"TextureManager.cpp"
+
+1587021548 c:\users\pi\desktop\codeblock\sdl tut\map\map.h
+	"Game.h"
+
+1587359856 c:\users\pi\desktop\codeblock\sdl tut\game\texturemanager.h
+	"SDL.h"
+	"SDL_image.h"
+	<iostream>
+
+1587350851 c:\users\pi\desktop\codeblock\sdl tut\game\gameobjects.h
+	<SDL.h>
+	"Game.h"
+
+1587359766 c:\users\pi\desktop\codeblock\sdl tut\game\gameobjects.cpp
+	"GameObjects.h"
+	<TextureManager.h>
+	<SDL.h>
+	<Input2.h>
+	<Map.h>
+	<iostream>
+	<SDL.h>
+
+1587359855 c:\users\pi\desktop\codeblock\sdl tut\game\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	<SDL.h>
+	"Game.h"
+
+1587364241 c:\users\pi\desktop\codeblock\sdl tut\game\map.h
+	"Game.h"
+
+1587364576 c:\users\pi\desktop\codeblock\sdl tut\game\map.cpp
+	"Map.h"
+	"TextureManager.h"
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	<vector>
+
+1587199872 source:c:\users\pi\desktop\codeblock\sdl tut\game\vector2d.cpp
+	"Vector2D.h"
+
+1587200441 c:\users\pi\desktop\codeblock\sdl tut\game\vector2d.h
+	<iostream>
+
+1587200962 c:\users\pi\desktop\codeblock\sdl tut\game\tranform.h
+	<iostream>
+	<Vector2D.h>
+
+1587200443 source:c:\users\pi\desktop\codeblock\sdl tut\game\tranform.cpp
+	"Tranform.h"
+
+1587221278 source:c:\users\pi\desktop\codeblock\sdl tut\game\input.cpp
+	"Input2.h"
+	"SDL.h"
+	<iostream>
+
+1587207318 c:\users\pi\desktop\codeblock\sdl tut\game\input.h
+	<SDL.h>
+
+1587203984 c:\users\pi\desktop\codeblock\sdl tut\game\input.cpp
+	"Input.h"
+	"Game.h"
+
+1587216709 c:\users\pi\desktop\codeblock\sdl tut\game\input2.h
+	<SDL.h>
+
+1587360769 c:\users\pi\desktop\codeblock\sdl tut\game\virus.h
+	<SDL.h>
+
+1587364392 source:c:\users\pi\desktop\codeblock\sdl tut\game\virus.cpp
+	"Virus.h"
+	<TextureManager.h>
+	<Map.h>
+	<SDL.h>
+	<ctime>
+	<stdlib.h>
+	<vector>
+
+1587363544 source:c:\users\pi\desktop\codeblock\sdl tut\game\audio.cpp
+	"Audio.h"
+
+1587363504 c:\users\pi\desktop\codeblock\sdl tut\game\audio.h
+	<iostream>
+	<SDL_mixer.h>
+
+1540997992 c:\development\sdl2_mixer-2.0.4\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1587363544 source:c:\users\pi\desktop\codeblock\corona\game\audio.cpp
+	"Audio.h"
+
+1587363504 c:\users\pi\desktop\codeblock\corona\game\audio.h
+	<iostream>
+	<SDL_mixer.h>
+
+1587200443 source:c:\users\pi\desktop\codeblock\corona\game\tranform.cpp
+	"Tranform.h"
+
+1587200962 c:\users\pi\desktop\codeblock\corona\game\tranform.h
+	<iostream>
+	<Vector2D.h>
+
+1587200441 c:\users\pi\desktop\codeblock\corona\game\vector2d.h
+	<iostream>
+
+1587199872 source:c:\users\pi\desktop\codeblock\corona\game\vector2d.cpp
+	"Vector2D.h"
+
+1587360767 source:c:\users\pi\desktop\codeblock\corona\game\virus.cpp
+	"Virus.h"
+	<TextureManager.h>
+	<Map.h>
+	<SDL.h>
+	<ctime>
+	<stdlib.h>
+	<vector>
+
+1587360769 c:\users\pi\desktop\codeblock\corona\game\virus.h
+	<SDL.h>
+
+1587359856 c:\users\pi\desktop\codeblock\corona\game\texturemanager.h
+	"SDL.h"
+	"SDL_image.h"
+	<iostream>
+
+1587281483 c:\users\pi\desktop\codeblock\corona\game\map.h
+	"Game.h"
+
+1587304056 c:\users\pi\desktop\codeblock\corona\game\game.h
+	"SDL.h"
+	<iostream>
+	"Virus.h"
+
+1587363805 source:c:\users\pi\desktop\codeblock\corona\main.cpp
+	<iostream>
+	<SDL.h>
+	<windows.h>
+	"Game.h"
+	"Game.cpp"
+	<SDL_image.h>
+	<TextureManager.cpp>
+
+1587363679 c:\users\pi\desktop\codeblock\corona\game\game.cpp
+	"Game.h"
+	<SDL_image.h>
+	"TextureManager.h"
+	"GameObjects.h"
+	"GameObjects.cpp"
+	"Map.h"
+	"Map.cpp"
+	"Vector2D.h"
+	"Tranform.h"
+	"Input2.h"
+	"Virus.h"
+	"Audio.h"
+
+1587350851 c:\users\pi\desktop\codeblock\corona\game\gameobjects.h
+	<SDL.h>
+	"Game.h"
+
+1587359766 c:\users\pi\desktop\codeblock\corona\game\gameobjects.cpp
+	"GameObjects.h"
+	<TextureManager.h>
+	<SDL.h>
+	<Input2.h>
+	<Map.h>
+	<iostream>
+	<SDL.h>
+
+1587216709 c:\users\pi\desktop\codeblock\corona\game\input2.h
+	<SDL.h>
+
+1587363918 c:\users\pi\desktop\codeblock\corona\game\map.cpp
+	"Map.h"
+	"TextureManager.h"
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	<vector>
+
+1587359855 c:\users\pi\desktop\codeblock\corona\game\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	<SDL.h>
+	"Game.h"
+
+1587359766 source:c:\users\pi\desktop\codeblock\sdl tut\game\gameobjects.cpp
+	"GameObjects.h"
+	<TextureManager.h>
+	<SDL.h>
+	<Input2.h>
+	<Map.h>
+	<iostream>
+	<SDL.h>
+
+1587207136 source:c:\users\pi\desktop\codeblock\sdl tut\game\input2.cpp
+	"Input2.h"
+	"SDL.h"
+	<iostream>
+
+1587364576 source:c:\users\pi\desktop\codeblock\sdl tut\game\map.cpp
+	"Map.h"
+	"TextureManager.h"
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	<vector>
+
+1587359855 source:c:\users\pi\desktop\codeblock\sdl tut\game\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	<SDL.h>
+	"Game.h"
+
