@@ -39,7 +39,7 @@ void Virus::Update()
 {
 
     srcRect.h = heigtOfVirus;
-    srcRect.w = heigtOfVirus;
+    srcRect.w = widthOfVirus;
     srcRect.x = widthOfVirus*frame;
     srcRect.y = 0;
 

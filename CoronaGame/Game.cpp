@@ -55,7 +55,7 @@ void Game::init(const char *title, int xpos, int ypos, int width, int height, bo
     }
 
     // Tao nhan vat cho game
-    player1 = new GameObjects("image/doctor2.png",0,0);
+    player1 = new GameObjects("image/gameplayer4.png",0,0);
     //Sinh Virus
     genVirus();
     //Sinh Map

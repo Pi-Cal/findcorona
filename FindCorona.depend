@@ -512,3 +512,516 @@
 
 1587815017 c:\users\pi\desktop\codeblock\findcorona\audio.h
 
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\audio.cpp
+	"Audio.h"
+	<iostream>
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\audio.h
+	<SDL_mixer.h>
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2_mixer-2.0.4\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\close_code.h
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\congraculation.cpp
+	"Congraculation.h"
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\congraculation.h
+	"TextureManager.h"
+	<SDL.h>
+	"Game.h"
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\texturemanager.h
+	"SDL.h"
+	"SDL_image.h"
+	<iostream>
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2-devel-2.0.12-mingw\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2_image-2.0.5\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\game.h
+	"SDL.h"
+	<iostream>
+	"CoronaVr.h"
+	<SDL_mixer.h>
+	"Menu.h"
+
+1588574935 c:\users\pi\desktop\findcorona\coronagame\coronavr.h
+	<SDL.h>
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\menu.h
+	<SDL.h>
+	"TextObjects.h"
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\textobjects.h
+	<SDL_ttf.h>
+	<SDL.h>
+	<string>
+
+1588574225 c:\users\pi\desktop\findcorona\sdl\sdl2_ttf-2.0.15\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1588576684 source:c:\users\pi\desktop\findcorona\coronagame\coronavr.cpp
+	"CoronaVr.h"
+	"TextureManager.h"
+	"Map.h"
+	<SDL.h>
+	<ctime>
+	<stdlib.h>
+	<vector>
+	"Game.h"
+
+1588574897 c:\users\pi\desktop\findcorona\coronagame\map.h
+	<string>
+	<SDL.h>
+
+1588579289 source:c:\users\pi\desktop\findcorona\coronagame\game.cpp
+	"Game.h"
+	<SDL_image.h>
+	<string>
+	"TextureManager.h"
+	"GameObjects.h"
+	"Map.h"
+	"Input.h"
+	"CoronaVr.h"
+	<SDL_mixer.h>
+	"TextObjects.h"
+	"Congraculation.h"
+	"VirusIcon.h"
+	"Menu.h"
+	"Audio.h"
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\gameobjects.h
+	<SDL.h>
+	"Game.h"
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\input.h
+	<SDL.h>
+
+1588574225 c:\users\pi\desktop\findcorona\coronagame\virusicon.h
+	<SDL.h>
+	"TextureManager.h"
+	<SDL.h>
+	"Game.h"
+
+1588579314 source:c:\users\pi\desktop\findcorona\coronagame\gameobjects.cpp
+	"GameObjects.h"
+	"TextureManager.h"
+	<SDL.h>
+	"Input.h"
+	"Map.h"
+	<iostream>
+	<SDL.h>
+
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\input.cpp
+	"Input.h"
+	"SDL.h"
+	<iostream>
+	"Game.h"
+	"Menu.h"
+
+1588575481 source:c:\users\pi\desktop\findcorona\coronagame\map.cpp
+	"Map.h"
+	"TextureManager.h"
+	<fstream>
+	<vector>
+	<string>
+	<SDL.h>
+	"Game.h"
+
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\menu.cpp
+	"Menu.h"
+	"TextureManager.h"
+	"TextObjects.h"
+	"Game.h"
+	"Input.h"
+
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\textobjects.cpp
+	"TextObjects.h"
+	"Game.h"
+
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	<SDL.h>
+	"Game.h"
+
+1588574225 source:c:\users\pi\desktop\findcorona\coronagame\virusicon.cpp
+	"VirusIcon.h"
+
+1588574737 source:c:\users\pi\desktop\findcorona\main.cpp
+	<iostream>
+	<SDL.h>
+	<windows.h>
+	"CoronaGame/Game.h"
+	<SDL_image.h>
+	"CoronaGame/TextureManager.h"
+	"Menu.h"
+	"Audio.h"
+
+1588574225 c:\users\pi\desktop\findcorona\audio.h
+

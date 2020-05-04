@@ -28,7 +28,7 @@ void check(int& xpos, int&ypos ,const int height1, const int width1){
     if (xpos < 0) xpos += speed;
     if (ypos < 0) ypos += speed;
     if (xpos+height1>=1040) xpos -=speed;
-    if (ypos+width1>=1040) ypos -=speed;
+    if (ypos+width1>=1008) ypos -=speed;
 
 }
 
@@ -41,7 +41,7 @@ GameObjects::GameObjects(const char* texturesheet, int x, int y)
     ypos = y;
 
     frameCount = 2;
-    animateSpeed = 35;
+    animateSpeed = 60;
 
 }
 
@@ -49,15 +49,15 @@ void GameObjects::Update()
 {
     mapmap2 = new Map();
     check(xpos,ypos,destRect.h,destRect.w);
-    srcRect.h = heigt;
-    srcRect.w = width;
-    srcRect.x = 16*frame;
+    srcRect.h = 2065;
+    srcRect.w = 1691;
+    srcRect.x = 1691*frame;
     srcRect.y = 0;
 
     destRect.x = xpos;
     destRect.y = ypos;
-    destRect.h = srcRect.h*2-speed;
-    destRect.w = srcRect.w*2-speed;
+    destRect.h = 16*2-speed;
+    destRect.w = 16*2-speed;
 
     frame = (SDL_GetTicks()/animateSpeed)%frameCount;
 

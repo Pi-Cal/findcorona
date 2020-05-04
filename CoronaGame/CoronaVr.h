@@ -3,7 +3,7 @@
 
 #include <SDL.h>
 
-const int widthInArray1 = 65, heigtInArray1=65, widthOfVirus=14, heigtOfVirus=14;
+const int widthInArray1 = 63, heigtInArray1=63, widthOfVirus=14, heigtOfVirus=14;
 const int convertPos = 16;
 
 

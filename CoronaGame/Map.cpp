@@ -6,7 +6,7 @@
 #include <SDL.h>
 #include "Game.h";
 
-const int widthInArray = 65, heigtInArray = 65;
+const int widthInArray = 63, heigtInArray = 63;
 
 std::vector<std::string> hostFileArray;
 
