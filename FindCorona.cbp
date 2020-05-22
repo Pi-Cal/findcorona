@@ -52,20 +52,22 @@
 		</Linker>
 		<Unit filename="CoronaGame/Audio.cpp" />
 		<Unit filename="CoronaGame/Audio.h" />
-		<Unit filename="CoronaGame/Congraculation.cpp" />
-		<Unit filename="CoronaGame/Congraculation.h" />
 		<Unit filename="CoronaGame/CoronaVr.cpp" />
 		<Unit filename="CoronaGame/CoronaVr.h" />
 		<Unit filename="CoronaGame/Game.cpp" />
 		<Unit filename="CoronaGame/Game.h" />
 		<Unit filename="CoronaGame/GameObjects.cpp" />
 		<Unit filename="CoronaGame/GameObjects.h" />
+		<Unit filename="CoronaGame/Gif.cpp" />
+		<Unit filename="CoronaGame/Gif.h" />
 		<Unit filename="CoronaGame/Input.cpp" />
 		<Unit filename="CoronaGame/Input.h" />
 		<Unit filename="CoronaGame/Map.cpp" />
 		<Unit filename="CoronaGame/Map.h" />
 		<Unit filename="CoronaGame/Menu.cpp" />
 		<Unit filename="CoronaGame/Menu.h" />
+		<Unit filename="CoronaGame/Monster.cpp" />
+		<Unit filename="CoronaGame/Monster.h" />
 		<Unit filename="CoronaGame/TextObjects.cpp" />
 		<Unit filename="CoronaGame/TextObjects.h" />
 		<Unit filename="CoronaGame/TextureManager.cpp" />

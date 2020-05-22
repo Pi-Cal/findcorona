@@ -17,6 +17,7 @@ class Game
 
         void handleEvents();
         void handleCollision();
+        void handleCollision2();
         void update();
         void render();
         void clean();
@@ -25,6 +26,7 @@ class Game
         bool running(){return isRunning;}
 
         void genVirus();
+        void genMonster();
         static SDL_Renderer *renderer;
         bool IsPlaying(){return isPlaying;}
         bool VirusDied(){return virusDied;}
@@ -32,13 +34,14 @@ class Game
         void SetTime();
         void CountVirus();
         void Reset(){instance = nullptr;}
+        int GetScore() {return score;}
 
     private:
         int score=0;
-        Virus* virus1;
         bool isRunning = false, isPlaying=true,virusDied=false;
         SDL_Window *window;
         static Game *instance;
+        int monsterCount = 0;
 };
 
 #endif // GAME_H

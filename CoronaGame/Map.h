@@ -8,9 +8,9 @@ class Map
     public:
         Map();
         ~Map();
-    void LoadMap(int arr[63][63]);
+    void LoadMap(int arr[30][30]);
     void DrawMap();
-    int map2[63][63];
+    int map2[30][30];
     void loadMapFromFile(std::string fileName);
     std::string chooseMap(std::string hostmap);
 
@@ -21,7 +21,7 @@ class Map
         SDL_Texture* grass;
         SDL_Texture* water;
 
-        int map1[63][63];
+        int map1[30][30];
 };
 
 #endif // MAP_H

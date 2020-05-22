@@ -1,6 +1,6 @@
 #include "VirusIcon.h"
 
-const int heigtIcon = 24, widthIcon=24;
+const int heigtIcon = 16, widthIcon=16;
 
 VirusIcon::VirusIcon(const char* texturesheet, int x, int y)
 {

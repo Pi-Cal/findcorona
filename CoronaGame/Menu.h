@@ -27,7 +27,9 @@ class Menu
         SDL_Rect srcRec, desRect;
         TextObjects* menuTextYes;
         TextObjects* menuTextNo;
-        std::string strMenuYes, strMenuNo;
+        TextObjects* scoreFinal;
+        int scoreFinalInt;
+        std::string strMenuYes, strMenuNo, strScore;
         bool playAgain = true ;
 
         static Menu *instance;

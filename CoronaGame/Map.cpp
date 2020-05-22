@@ -6,7 +6,7 @@
 #include <SDL.h>
 #include "Game.h";
 
-const int widthInArray = 63, heigtInArray = 63;
+const int widthInArray = 30, heigtInArray = 30;
 
 std::vector<std::string> hostFileArray;
 
@@ -35,7 +35,7 @@ std::string Map::chooseMap(std::string hostmap){
     std::ifstream host(hostmap);
     if(host.is_open()){
         std::string s;
-        while(host>>s)
+        while(getline(host,s))
             hostFileArray.push_back(s);
         return hostFileArray[0];
 

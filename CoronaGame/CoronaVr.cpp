@@ -7,6 +7,7 @@
 #include <vector>
 #include "Game.h"
 
+
 Map* mapmap3;
 
 
@@ -16,11 +17,11 @@ std::vector< std::pair<int,int> > pos0;
 void Virus::VirusGen(int arr[][widthInArray1]){
     for (int i=1;i<heigtInArray1-1;i++)
         for (int j=1;j<widthInArray1-1;j++)
-            if (arr[i][j]==0)
+            if (arr[i][j]==0&&arr[i+1][j]==0&&arr[i][j+1]==0&&arr[i+1][j+1]==0)
                 pos0.push_back(std::make_pair(j,i));
     int choose = SDL_GetTicks()%pos0.size();
-    xpos = pos0[choose].first*convertPos;
-    ypos = pos0[choose].second*convertPos;
+    xpos = pos0[choose].first*convertPos1;
+    ypos = pos0[choose].second*convertPos1;
 
 }
 
@@ -39,7 +40,7 @@ void Virus::Update()
 {
 
     srcRect.h = heigtOfVirus;
-    srcRect.w = widthOfVirus;
+    srcRect.w = heigtOfVirus;
     srcRect.x = widthOfVirus*frame;
     srcRect.y = 0;
 

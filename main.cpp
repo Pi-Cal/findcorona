@@ -7,8 +7,6 @@
 #include "CoronaGame/TextureManager.h"
 #include "Menu.h"
 #include "Audio.h"
-#define WIDTH 1008
-#define HEIGHT 1008
 
 
 using namespace std;
@@ -21,17 +19,19 @@ void choiDiAe(){
     Uint32 frameStart;
     int frameTime;
 
-    Game::GetInstance() -> init("CoronaVr", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, HEIGHT, WIDTH,false);
+    Game::GetInstance() -> init("CoronaVr", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 480,480,false);
     while (Game::GetInstance()->running()){
 
         frameStart = SDL_GetTicks();
 
         if(Game::GetInstance()->IsPlaying()&&Game::GetInstance()->VirusDied())
             Game::GetInstance()->genVirus();
+        Game::GetInstance()->genMonster();
         if(Game::GetInstance()->IsPlaying()) {
             Game::GetInstance()->SetTime();
             Game::GetInstance()->CountVirus();
             Game::GetInstance()->handleCollision();
+            Game::GetInstance()->handleCollision2();
         }
         Game::GetInstance()->handleEvents();
         Game::GetInstance()->update();

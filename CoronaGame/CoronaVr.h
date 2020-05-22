@@ -3,8 +3,9 @@
 
 #include <SDL.h>
 
-const int widthInArray1 = 63, heigtInArray1=63, widthOfVirus=14, heigtOfVirus=14;
-const int convertPos = 16;
+
+const int widthInArray1 = 30, heigtInArray1=30, widthOfVirus=14, heigtOfVirus=14;
+const int convertPos1 = 16;
 
 
 class Virus

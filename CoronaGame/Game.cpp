@@ -12,6 +12,7 @@
 #include "VirusIcon.h"
 #include "Menu.h"
 #include "Audio.h"
+#include "Monster.h"
 
 Game *Game::instance = nullptr;
 
@@ -26,7 +27,13 @@ VirusIcon* icon;
 TTF_Font* fontTime = NULL;
 
 TextObjects* timeGame;
+
 TextObjects* NumOfVirus;
+
+Virus* virus1;
+
+
+Monster *monsterCa[100];
 
 
 SDL_Renderer* Game::renderer = nullptr;
@@ -55,7 +62,7 @@ void Game::init(const char *title, int xpos, int ypos, int width, int height, bo
     }
 
     // Tao nhan vat cho game
-    player1 = new GameObjects("image/gameplayer4.png",0,0);
+    player1 = new GameObjects("image/doctor2.png",0,0);
     //Sinh Virus
     genVirus();
     //Sinh Map
@@ -63,12 +70,12 @@ void Game::init(const char *title, int xpos, int ypos, int width, int height, bo
     //Virus Count Icon
     music = new Audio();
 
-    icon = new VirusIcon("image/countvirus2.png",360,12);
+    icon = new VirusIcon("image/countvirus2.png",220,0);
 
     if (TTF_Init()==-1){
         std::cout << "Can't load the Init " << TTF_GetError() << std::endl;
     }
-    fontTime = TTF_OpenFont("Font/gamefont.ttf",17);
+    fontTime = TTF_OpenFont("Font/gamefont.ttf",14);
 
     timeGame = new TextObjects();
 
@@ -87,6 +94,12 @@ void Game::genVirus(){
     virusDied = false ;
 }
 
+void Game::genMonster() {
+    if(SDL_GetTicks()%120==0) {
+        monsterCa[monsterCount] = new Monster("image/monster.png",monsterCount);
+        monsterCount++;
+    }
+}
 
 void Game::SetTime(){
     if (fontTime == NULL){
@@ -95,7 +108,7 @@ void Game::SetTime(){
     timeGame->SetColor(TextObjects::WHITE_TEXT);
     std::string strTime = "Time: ";
     Uint32 timeVal = SDL_GetTicks()/1000;
-    int limitedTime = 30-timeVal;
+    int limitedTime = 20-timeVal;
     std::string strValue = std::to_string(limitedTime);
     strTime += strValue;
     timeGame->SetText(strTime);
@@ -130,7 +143,20 @@ void Game::handleCollision(){
             score++;
         }
 }
-
+void Game::handleCollision2() {
+    for (int i=0;i<monsterCount; i++) {
+        if((player1->xpos<=monsterCa[i]->xpos&&(player1->xpos+player1->destRect.w)>=monsterCa[i]->xpos&&player1->ypos<=monsterCa[i]->ypos&&(player1->ypos+player1->destRect.h)>=monsterCa[i]->ypos)||
+       (player1->xpos<=(monsterCa[i]->xpos+monsterCa[i]->destRect.w)&&(player1->xpos+player1->destRect.w)>=(monsterCa[i]->xpos+monsterCa[i]->destRect.w)&&
+        player1->ypos<=monsterCa[i]->ypos&&(player1->ypos+player1->destRect.h)>=monsterCa[i]->ypos)||
+       (player1->xpos<=monsterCa[i]->xpos&&(player1->xpos+player1->destRect.w)>=monsterCa[i]->xpos&&player1->ypos<=(monsterCa[i]->ypos+monsterCa[i]->destRect.h)&&
+        (player1->ypos+player1->destRect.h)>=(monsterCa[i]->ypos+monsterCa[i]->destRect.h))||
+       (player1->xpos<=(monsterCa[i]->xpos+monsterCa[i]->destRect.w)&&(player1->xpos+player1->destRect.w)>=(monsterCa[i]->xpos+monsterCa[i]->destRect.w)&&
+        player1->ypos<=(monsterCa[i]->ypos+monsterCa[i]->destRect.h)&&(player1->ypos+player1->destRect.h)>=(monsterCa[i]->ypos+monsterCa[i]->destRect.h))
+        ) {
+            isPlaying = false;
+        }
+    }
+}
 void Game::handleEvents()
 {
     if(IsPlaying()) Input::GetInstace()->Listen();
@@ -141,9 +167,12 @@ void Game::update()
 {
     player1 -> Update();
     icon -> Update();
-    Menu::GetInstance()-> Update();
+    Menu::GetInstance() -> Update();
     if(virus1->alive())
         virus1 -> Update();
+    if(Game::GetInstance()->IsPlaying())
+        for (int i=0;i<monsterCount; i++)
+            monsterCa[i]->Update();
 
 }
 
@@ -152,11 +181,13 @@ void Game::render()
     SDL_RenderClear(renderer);
     mapmap -> DrawMap();
     player1 -> Render();
-    if(virus1 -> alive())
-        virus1 -> Render();
-    timeGame -> RenderText(568,12);
+    if(virus1 -> alive())  virus1 -> Render();
+    if(Game::GetInstance()->IsPlaying())
+        for (int i=0;i<monsterCount; i++)
+            monsterCa[i]->Render();
+    timeGame -> RenderText(360,2);
     icon -> Render();
-    NumOfVirus->RenderText(390,14);
+    NumOfVirus->RenderText(242,2);
     if(!IsPlaying()) Menu::GetInstance() -> Render();
     SDL_RenderPresent(renderer);
 }
@@ -178,6 +209,7 @@ void Game::clean()
         std::cout <<"Your Score: "<< score << std::endl << "Game Cleaned " << std::endl;
 
 }
+
 
 
 
